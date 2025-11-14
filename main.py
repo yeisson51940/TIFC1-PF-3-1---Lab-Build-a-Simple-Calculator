@@ -35,3 +35,9 @@ elif operacion ==  '%':
 else:
   resultado = "Operación no válida"
 print("El resultado es:", {resultado}) 
+
+number1 = int(input("Ingrese el primer numero: "))
+number2 = int(input("Ingrese el segundo numero: "))
+number3 = int(input("Proporciona el tercer numero: "))
+sumar = number1 + number2 + number3
+print("Resultado de la suma de tres numeros: ", {sumar})
