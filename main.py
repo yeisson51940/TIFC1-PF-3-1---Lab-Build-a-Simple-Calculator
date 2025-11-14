@@ -41,3 +41,7 @@ number2 = int(input("Ingrese el segundo numero: "))
 number3 = int(input("Proporciona el tercer numero: "))
 sumar = number1 + number2 + number3
 print("Resultado de la suma de tres numeros: ", {sumar})
+
+expresion = input("Ingrese una expresión matemática (ej. 2 + 4 - 3): ")
+resultado = eval(expresion) #eval permite evaluar una cadena de texto
+print("El resultado es:", resultado)
